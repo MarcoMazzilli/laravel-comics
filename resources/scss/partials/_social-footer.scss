@@ -1,0 +1,48 @@
+.main-wrapper.social-footer{
+    height: $footer-social-height;
+    background-color: $bg-footer ;
+
+    .container{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .button-container{
+            display: flex;
+            align-items: center;
+
+            #button{
+                border: 2px solid $main-blue;
+                padding: 15px;
+                color: white;
+                font-weight: bold;
+            }
+        }
+
+        .social-icons{
+            padding: 0 15px;
+            display: flex;
+            align-items: center;
+
+            h3{
+                color: $main-blue;
+                text-transform: uppercase;
+                margin-right: 25px;
+                font-size: 1.5rem;
+            }
+            ul{
+                display: flex;
+                list-style: none;
+                gap: 20px;
+
+                li{
+                    cursor: pointer;
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+
+}

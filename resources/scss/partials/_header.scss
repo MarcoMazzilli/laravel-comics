@@ -1,0 +1,40 @@
+.container.header{
+    height: $header-height  ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img{
+        height: 85%;
+    }
+
+    ul{
+    display: flex;
+    list-style: none;
+    height: 100%;
+
+    li{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        border-bottom: 5px solid $bg-header;
+        margin: 0 10px;
+
+        &:hover, &.active{
+            border-bottom: 5px solid $main-blue;
+            cursor: pointer;
+        }
+
+        &:hover a {
+            color: $main-blue;
+        }
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: .9rem;
+            color: $main-grey;
+        }
+    }
+}
+}
