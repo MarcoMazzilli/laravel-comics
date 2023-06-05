@@ -14,9 +14,10 @@
     @include('partials.header')
     @include('partials.jumbotron')
 
-<h1>Main Content</h1>
-@include('partials.cta-section')
-@include('partials.footer')
-@include('partials.social-footer')
+    <h1>Main Content</h1>
+
+    @include('partials.cta-section')
+    @include('partials.footer')
+    @include('partials.social-footer')
 </body>
 </html>
