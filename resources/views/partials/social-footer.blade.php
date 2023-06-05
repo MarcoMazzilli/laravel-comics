@@ -1,3 +1,7 @@
+@php
+    $icons = config('menus-db.footerSocialIcons');
+@endphp
+
 <div class="main-wrapper social-footer">
     <div class="container">
 
@@ -8,7 +12,11 @@
         <div class="social-icons">
             <h3>follow us</h3>
             <ul>
-                <li v-for="(src,i) in footerSocialIcons" :key="i"><img :src="src" alt=""></li>
+                @foreach ($icons as $icon)
+                <li>
+                    <img src="{{ Vite::asset($icon) }}" alt="">
+                </li>
+                @endforeach
             </ul>
         </div>
 

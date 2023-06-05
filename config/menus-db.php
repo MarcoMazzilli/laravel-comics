@@ -178,6 +178,14 @@ return [
             "label"=>"DC Power Visa",
             "url"=>"#",
         ]
+    ],
+
+    "footerSocialIcons" => [
+        "resources/assets/img/social-icons/footer-facebook.png",
+        "resources/assets/img/social-icons/footer-periscope.png",
+        "resources/assets/img/social-icons/footer-pinterest.png",
+        "resources/assets/img/social-icons/footer-twitter.png",
+        "resources/assets/img/social-icons/footer-youtube.png",
     ]
 
 
