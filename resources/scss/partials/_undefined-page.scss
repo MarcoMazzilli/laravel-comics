@@ -1,0 +1,24 @@
+.main-wrapper.undefined-page {
+    height: 400px;
+    background-color: $bg-main;
+
+        .container {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        #url-name{
+            color: white;
+            padding: 5px 10px;
+            background-color: $main-blue;
+            border-radius: 10px;
+        }
+        p{
+            font-size: 1.6rem;
+            margin: 20px;
+        }
+    }

@@ -4,12 +4,12 @@ return [
 
     "headerLink" => [
         [
-            "label" => "characters",
-            "url" => "movies",
+            "label" => "home",
+            "url" => "home",
         ],
         [
             "label"=>"comics",
-            "url"=>"movies",
+            "url"=>"comics",
         ],
         [
             "label"=>"movies",
@@ -17,31 +17,31 @@ return [
         ],
         [
             "label"=>"tv",
-            "url"=>"movies",
+            "url"=>"tv",
         ],
         [
             "label"=>"games",
-            "url"=>"movies",
+            "url"=>"games",
         ],
         [
             "label"=>"collectibles",
-            "url"=>"movies",
+            "url"=>"collectibles",
         ],
         [
             "label"=>"videos",
-            "url"=>"movies",
+            "url"=>"videos",
         ],
         [
             "label"=>"fans",
-            "url"=>"movies",
+            "url"=>"fans",
         ],
         [
             "label"=>"news",
-            "url"=>"movies",
+            "url"=>"news",
         ],
         [
             "label"=>"shop",
-            "url"=>"movies",
+            "url"=>"shop",
         ]
     ],
 
