@@ -66,6 +66,118 @@ return [
             'label'=> "dc power visa" ,
             'src'=> 'resources/assets/img/buy-dc-power-visa.svg'
         ],
+    ],
+
+    "dcComics" => [
+        [
+            "label"=>"characters",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"comics",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"movies",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"tv",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"games",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"videos",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"news",
+            "url"=>"#",
+        ],
+    ],
+
+    "shop" => [
+        [
+            "label" => "Shop DC",
+            "url" => "#",
+        ],
+        [
+            "label" => "Shop DC Collectibles",
+            "url" => "#",
+        ],
+    ],
+
+    "dc"=> [
+        [
+            "label"=>"Terms Of Use",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"Privacy Policy (new)",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"Ad Choices",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"Advertising",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"Jobs",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"Subscription",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"Talent Workshop",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"CPSC Certificates",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"Ratings",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"Short Help",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"Contact Us",
+            "url"=>"#",
+        ],
+    ],
+
+    "sites"=> [
+        [
+            "label"=>"DC",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"MAD Magazine",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"DC kids",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"DC Universe",
+            "url"=>"#",
+        ],
+        [
+            "label"=>"DC Power Visa",
+            "url"=>"#",
+        ]
     ]
 
 
