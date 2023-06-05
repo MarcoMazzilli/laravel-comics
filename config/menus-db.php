@@ -5,43 +5,43 @@ return [
     "headerLink" => [
         [
             "label" => "characters",
-            "url" => "#",
+            "url" => "movies",
         ],
         [
             "label"=>"comics",
-            "url"=>"#",
+            "url"=>"movies",
         ],
         [
             "label"=>"movies",
-            "url"=>"#",
+            "url"=>"movies",
         ],
         [
             "label"=>"tv",
-            "url"=>"#",
+            "url"=>"movies",
         ],
         [
             "label"=>"games",
-            "url"=>"#",
+            "url"=>"movies",
         ],
         [
             "label"=>"collectibles",
-            "url"=>"#",
+            "url"=>"movies",
         ],
         [
             "label"=>"videos",
-            "url"=>"#",
+            "url"=>"movies",
         ],
         [
             "label"=>"fans",
-            "url"=>"#",
+            "url"=>"movies",
         ],
         [
             "label"=>"news",
-            "url"=>"#",
+            "url"=>"movies",
         ],
         [
             "label"=>"shop",
-            "url"=>"#",
+            "url"=>"movies",
         ]
     ],
 

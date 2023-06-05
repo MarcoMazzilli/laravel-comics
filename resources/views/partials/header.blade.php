@@ -11,8 +11,8 @@
     <ul>
         @foreach ($header_link as $item)
 
-        <li>
-            <a href="{{ $item['url'] }}">{{ $item['label'] }}</a>
+        <li class="{{ Route::currentRouteName() === $item['label'] ? 'active' : '' }}">
+            <a href="{{ route($item['url']) }}">{{ $item['label'] }}</a>
         </li>
 
         @endforeach
