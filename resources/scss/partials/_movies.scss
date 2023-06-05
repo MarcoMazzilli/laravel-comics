@@ -1,0 +1,35 @@
+.main-wrapper.movies {
+    min-height: $main-height;
+        background-color: $bg-main;
+
+        .container {
+            min-height: $main-height;
+            padding-top: 60px;
+            color: white;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: calc(100%/6);
+            padding: 15px;
+        }
+
+        .card-img {
+            aspect-ratio: 2/3;
+            margin-bottom: 15px;
+
+            img {
+                object-fit: cover;
+                object-position: center;
+                aspect-ratio: 2/3;
+            }
+        }
+
+        .card-description {
+            span {
+                text-transform: uppercase;
+            }
+        }
+
+    }

@@ -14,7 +14,7 @@
     @include('partials.header')
     @include('partials.jumbotron')
 
-    <h1>Main Content</h1>
+    @yield('content')
 
     @include('partials.cta-section')
     @include('partials.footer')

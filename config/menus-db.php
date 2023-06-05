@@ -188,6 +188,4 @@ return [
         "resources/assets/img/social-icons/footer-youtube.png",
     ]
 
-
-
 ];
