@@ -15,7 +15,7 @@
                     <img src="{{ $movie['thumb'] }}" alt="text">
                 </div>
                 <div class="card-description">
-                    <span>{{ $movie['series'] }}</span>
+                    <span>{{ $movie['title'] }}</span>
                 </div>
             </div>
 
