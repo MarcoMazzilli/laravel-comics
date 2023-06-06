@@ -11,12 +11,14 @@
             @foreach ($movies as $movie )
 
             <div class="card">
+                <a href="{{  route('description',['slug'=> $movie['slug']]) }}">
                 <div class="card-img">
-                    <img src="{{ $movie['thumb'] }}" alt="text">
-                </div>
-                <div class="card-description">
-                    <span>{{ $movie['title'] }}</span>
-                </div>
+                        <img src="{{ $movie['thumb'] }}" alt="text">
+                    </div>
+                    <div class="card-description">
+                        <span>{{ $movie['title'] }}</span>
+                    </div>
+                </a>
             </div>
 
             @endforeach

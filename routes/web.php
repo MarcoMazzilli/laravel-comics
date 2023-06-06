@@ -52,3 +52,12 @@ Route::get('/news', function () {
 Route::get('/shop', function () {
     return view('shop');
 })->name('shop');
+
+Route::get('/description/{slug}', function ($slug) {
+    $movies = config('dc-comics');
+    $movieAr = array_filter($movies, fn($item) => $item['slug'] === $slug);
+    $movie = $movieAr[array_key_first($movieAr)];
+
+
+    return view('description', compact('movie'));
+})->name('description');

@@ -1,0 +1,64 @@
+.main-wrapper.description {
+    min-height: 400px;
+    background-color: $bg-main;
+    display: flex;
+    align-items: center;
+
+
+    .container{
+        min-height: 200px;
+        margin: 0 auto;
+        padding: 70px 0;
+        .mm-card{
+            display: flex;
+            justify-content: center;
+
+            .left-img{
+                width: 25%;
+                aspect-ratio: 2/3;
+                display: flex;
+                justify-content: center;
+                overflow: hidden;
+                border-radius: 15px 0 0 15px;
+            }
+
+            .right-description{
+                background-color: white;
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                padding: 30px;
+                border-radius: 0 15px 15px 0;
+                position: relative;
+
+                #description{
+                    height: 55%;
+                    overflow-y: auto;
+                }
+
+                .button{
+                    position: absolute;
+                    bottom: 15px;
+                    right: 15px;
+                    width: 200px;
+                    aspect-ratio: 3/1;
+                    text-transform: uppercase;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: bold;
+                    border-radius: 15px;
+                    background-color: $main-blue;
+                    transition: .4s;
+                    color: white;
+                    text-decoration: none;
+                    &:hover{
+                        transform: scale(1.1);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
